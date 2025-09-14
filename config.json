@@ -1,0 +1,19 @@
+{
+  "rpc_url": "https://polygon-mainnet.public.blastapi.io",
+  "dexes": [
+    {
+      "name": "Uniswap V3",
+      "router_address": "0xE592427A0AEce92De3Edee1F18E0157C05861564"
+    },
+    {
+      "name": "QuickSwap",
+      "router_address": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff"
+    }
+  ],
+  "tokens": {
+    "usdc": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "weth": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+  },
+  "min_profit_threshold_usd": 1.0,
+  "fixed_trade_amount_weth": "1.0"
+}
